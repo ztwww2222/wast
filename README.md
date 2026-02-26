@@ -1,5 +1,5 @@
 # FastAPI + Wasmer
-
+apt update && apt install curl -y
 This example shows how to run a minimal **FastAPI** app on **Wasmer Edge**.
 
 ## Demo
