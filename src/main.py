@@ -61,7 +61,7 @@ def main():
     主函数：检查进程后决定是否启动
     """
     # 指定要检查的进程名称（根据实际情况修改）
-    process_name = "python app.py"  # 可改为你的实际进程名
+    process_name = "main.py"  # 可改为你的实际进程名
     
     print("=" * 50)
     print("检查应用状态...")
