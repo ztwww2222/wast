@@ -35,12 +35,12 @@ def start_application():
     """
     try:
         # 先检查 start.sh 是否存在
-        if not os.path.exists("./start.sh"):
+        if not os.path.exists("/app/src/start.sh"):
             print("错误: start.sh 文件不存在")
             return False
         
         # 授予执行权限并运行脚本
-        cmd = "chmod +x ./start.sh && ./start.sh"
+        cmd = "/app/src/start.sh"
         print(f"执行命令: {cmd}")
         
         result = subprocess.run(cmd, shell=True)
